@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Ewert&family=Poppins&family=Rubik+Bubbles&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: linear-gradient(to right, #333399, #ff00cc); */
+  background: linear-gradient(to right, #7950f2, #d0bfff);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  height: 70px;
+
+  /* margin-bottom: 10px; */
+}
+.Login-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 600px;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 20px;
+}
+.Login-container h1 {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.Login-header p {
+  font-size: 13px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.Login-logo,
+.Login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Login-form {
+  position: relative;
+}
+.Form-item-icon {
+  position: absolute;
+  padding-left: 24px;
+  padding-top: 12px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 16px;
+  padding-left: 60px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+
+input[type="submit"] {
+  width: 100%;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  padding: 16px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+}
+input:focus {
+  background-color: white;
+}
+input[type="submit"]:hover {
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.checkbox {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+input.checkbox {
+  height: 25px;
+  width: 20px;
+}
+.Signup {
+  display: flex;
+  padding-left: 30px;
+}
+.Signup-signin {
+  display: flex;
+  margin-left: 25px;
+}
+.Signup-signin a {
+  padding-left: 10px;
+}
+input[type="submit"][disabled] {
+  cursor: not-allowed;
+}
+.Error-Message {
+  color: red;
+}
+
+.table{
+  display: none;
+}

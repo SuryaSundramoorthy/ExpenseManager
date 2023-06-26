@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+  }
+.options{
+text-align: left;
+}
+.chart{
+width: 38%;
+border: #585e64 .5px solid;
+}
+.AnalyticsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.analyticsHeader{
+    font-weight: bold;
+    color: #585e64;
+width: 38%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 25px;
+
+}
+.Header{
+    margin-bottom: 0;
+   
+}
+select {
+    margin-top: 10px;
+    background-color: #dee2e6;
+    font-weight: 600;
+    color:#343a40;
+    width: 200px;
+  }
+select:focus{
+background-color: #dee2e6;
+border: #343a40 1px solid;
+ }
+ select :hover{
+  cursor: pointer;
+ }

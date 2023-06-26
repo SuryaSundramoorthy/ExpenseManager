@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: jBCrypt-0.4.1.jar
+

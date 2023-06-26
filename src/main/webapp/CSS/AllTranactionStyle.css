@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.Header{
+    margin-bottom: 0;
+}
+#closeBtn,#updateBtn{
+    padding: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  margin-top: 15px;
+  background-color: #b197fc;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;  
+  margin-left: 85px;
+}
+#closeBtn{
+    background-color: #ff8787;
+}
+#closeBtn:hover{
+    cursor: pointer;
+    background-color: #fa5252;
+}
+#updateBtn:hover{
+    cursor: pointer;
+    background-color: #845ef7;
+}
+label{
+    font-weight: bold;
+    color: #585e64;
+}
+
+#closeIcon{
+    padding: 8px;
+    margin-left: 90px;
+    border: none;
+   background-color: #dee2e6;
+   border-radius: 5px;
+}
+#updateHeader{
+    margin-left: 120px;
+    font-size: 22px;
+    color:#585e64;
+    font-weight: bold;
+}
+table{
+width: 100%;
+border-collapse: collapse;
+ border-spacing: 0;
+}
+
+thead{
+    color:  #585e64;
+    background-color: #dee2e6;
+    font-weight: bold;
+}
+tbody{
+    color: #495057;
+    align-items: center;
+}
+td,th{
+padding: 15px;
+text-align: center;    
+}
+tbody button{
+    border: none;
+    height: 25px;
+    width: 25px;
+}
+tbody img{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 0;
+}
+tbody tr:hover{
+background-color: #e9ecef;
+}
+tbody tr:hover img{
+background-color: #e9ecef;
+}
+tbody tr:hover button{
+cursor: pointer;
+}
+
+

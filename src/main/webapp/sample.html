@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/AnalyticsStyle.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="JS/ScriptAnalytics.js"></script>
+</head>
+<body>
+  <div class="AnalyticsContainer">
+    <div class="analyticsHeader">
+      <div class="analytics">Analytics :  Pie Chart</div>
+      <div class="options">
+        <select padding="10px" name="select" id="select">
+          <option value="ThisMonth">This Month</option>
+          <option value="ThisYear">This Year</option>      
+          <option value="LastMonth">Last Month</option>
+          <option value="LastYear">Last Year</option>      
+    </select>
+  </div>
+</div>
+<div class="chart">
+  <canvas id="myChart" ></canvas>
+</div>
+</div>
+</body>
+</html>

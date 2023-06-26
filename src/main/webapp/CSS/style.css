@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+body {
+  /* background-color: # */
+  background: #f1f3f5;
+  /* background-color: white; */
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  margin-bottom: 40px;
+  align-items: center;
+  font-size: 13px;
+  background: #9775fa;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.Navigation{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+.Navigation button{
+  padding: 15px;
+  background-color: #8ce99a;
+  border-radius: 10px;
+  border: none;
+  
+}
+li {
+  display: list-item;
+  margin-left: 20px;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.Balance {
+  background: white;
+  height: 200px;
+  width: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  background-color: #212529;
+}
+.Total-Balance {
+  color: #e5dbff;
+}
+.Income-Expense {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Income {
+  color: #8ce99a;
+}
+.Expense {
+  color: #fa5252;
+}
+.Balance h3 {
+  text-align: center;
+}
+input[type="number"],
+input[type="text"],
+select {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  margin-top: 10px;
+  background-color: #343a40;
+  color: white;
+}
+input[type="submit"] {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  margin-top: 15px;
+  background-color: #9775fa;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+.ShowTransactions input[type="button"] {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  margin-top: 1px;
+  background-color: #9775fa;
+  color: black;
+}
+.Transactions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  margin: auto;
+}
+.AddTransactions {
+  margin-bottom: 20px;
+}
+.Recent-Transactions {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-content: center;
+  justify-content: center;
+}
+.Recent-Transactions h3 {
+  padding: 10px;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+input[type="number"]:focus,
+select:focus {
+  background-color: #212529;
+}
+.Recent-Transactions img{
+  
+  height: 40px;
+}
+.Recent-Transactions table{
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+}
+
+.Recent-Transactions td,th {
+  padding: 10px;
+  text-align: center;
+}
